@@ -4,4 +4,7 @@ def reverse_each_word (str)
   
   newArr.each do |x|
     x=x.reverse!
+  end 
+  
+  return newArr
 end 
